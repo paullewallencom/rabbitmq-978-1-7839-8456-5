@@ -1,0 +1,17 @@
+## guest user
+
+dn: cn=guest,ou=users,dc=example,dc=com
+objectclass: inetOrgPerson
+cn: guest
+sn: guest
+uid: guest
+mail: guest@example.com
+
+## Subscriber user
+
+dn: cn=Subscriber,ou=users,dc=example,dc=com
+objectclass: inetOrgPerson
+cn: Subscriber
+sn: Subscriber
+uid: Subscriber
+mail: subscriber@example.com

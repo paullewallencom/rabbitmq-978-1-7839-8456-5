@@ -1,0 +1,10 @@
+## Example.com vhosts
+dn: ou=vhosts,dc=example,dc=com
+ou: vhosts
+description: Vhosts in the organization
+objectClass: organizationalUnit
+
+## test vhost
+dn: cn=test,ou=vhosts,dc=example,dc=com
+objectclass: organizationalRole
+description: test vhost

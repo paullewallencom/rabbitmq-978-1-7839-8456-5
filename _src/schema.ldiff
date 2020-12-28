@@ -1,0 +1,23 @@
+# This distinguished name (DN) determines the organization
+dn: dc=example,dc=com
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+dc: example            
+o: example
+description: Sample description
+
+## Example.com users
+dn: ou=users,dc=example,dc=com
+ou: users
+description: Users in the organization
+objectClass: organizationalUnit
+
+## Sample user
+
+dn: cn=Martin,ou=users,dc=example,dc=com
+objectclass: inetOrgPerson
+cn: Martin
+sn: Toshev
+uid: mtoshev
+mail: martin@example.com
